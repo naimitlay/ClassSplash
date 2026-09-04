@@ -59,13 +59,13 @@ public class Splash extends AppCompatActivity {
 
 
 // প্রোগ্রাম এখানে শুরু
+
         handler.postDelayed(() -> {
             Intent intent = new Intent(Splash.this, MainActivity.class);
             startActivity(intent);
             finish(); // স্প্ল্যাশ স্ক্রিনটি বন্ধ করে দেবে
-        }, 3000); // ৩ সেকেন্ড সময়
-        // এখানে প্রোগ্রাম শেষ
-
+        }, 3000);  // ৩ সেকেন্ড সময়
+       
     }//onCreate end
     
     // অতিরিক্ত সতর্কতা: স্ক্রিন বন্ধ হয়ে গেলে যেন ব্যাকগ্রাউন্ডে কোড না চলে
